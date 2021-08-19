@@ -1,0 +1,14 @@
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\obj\Debug\netcoreapp3.1\testv2.csproj.AssemblyReference.cache
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\obj\Debug\netcoreapp3.1\testv2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\obj\Debug\netcoreapp3.1\testv2.AssemblyInfoInputs.cache
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\obj\Debug\netcoreapp3.1\testv2.AssemblyInfo.cs
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\obj\Debug\netcoreapp3.1\testv2.csproj.CoreCompileInputs.cache
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\bin\Debug\netcoreapp3.1\testv2.exe
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\bin\Debug\netcoreapp3.1\testv2.deps.json
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\bin\Debug\netcoreapp3.1\testv2.runtimeconfig.json
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\bin\Debug\netcoreapp3.1\testv2.runtimeconfig.dev.json
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\bin\Debug\netcoreapp3.1\testv2.dll
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\bin\Debug\netcoreapp3.1\testv2.pdb
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\obj\Debug\netcoreapp3.1\testv2.dll
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\obj\Debug\netcoreapp3.1\testv2.pdb
+C:\Users\Zuzia\Documents\Programownie\testv2\testv2\obj\Debug\netcoreapp3.1\testv2.genruntimeconfig.cache
