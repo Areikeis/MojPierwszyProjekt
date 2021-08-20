@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zuzia\\Documents\\Programownie\\testv2\\testv2\\testv2.csproj": {}
+    "D:\\Programowanie\\MojPierwszyProjekt\\testv2\\testv2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zuzia\\Documents\\Programownie\\testv2\\testv2\\testv2.csproj": {
+    "D:\\Programowanie\\MojPierwszyProjekt\\testv2\\testv2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zuzia\\Documents\\Programownie\\testv2\\testv2\\testv2.csproj",
+        "projectUniqueName": "D:\\Programowanie\\MojPierwszyProjekt\\testv2\\testv2.csproj",
         "projectName": "testv2",
-        "projectPath": "C:\\Users\\Zuzia\\Documents\\Programownie\\testv2\\testv2\\testv2.csproj",
+        "projectPath": "D:\\Programowanie\\MojPierwszyProjekt\\testv2\\testv2.csproj",
         "packagesPath": "C:\\Users\\Zuzia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zuzia\\Documents\\Programownie\\testv2\\testv2\\obj\\",
+        "outputPath": "D:\\Programowanie\\MojPierwszyProjekt\\testv2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
