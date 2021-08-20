@@ -2,6 +2,9 @@
 
 namespace testv2
 {
+    // jezeli wpisze aa -> app exploduje
+    // jezeli wpisze 0.2 -> app exploduje
+
     class Program
     {
         static void Main(string[] args)
