@@ -7,31 +7,52 @@ namespace testv2
 
     class Program
     {
+        private static bool runShow = true;
         static void Main(string[] args)
         {
-            Console.WriteLine("Pierwsza liczba");
-            int liczba1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Druga liczba");
-            int liczba2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Twoje liczby to: " + $"{liczba1} {liczba2}");
-
-            if (liczba1 > liczba2)
+            while (runShow)
             {
-                int roznica = liczba1 - liczba2;
-                Console.WriteLine("Liczba pierwsza jest większa od drugiej o " + roznica);
+                var number1 = GetNumber();
+                var number2 = GetNumber();
+
+                Console.WriteLine($"Twoje liczby to: {number1} {number2}");
+
+                if (number1 > number2)
+                {
+                    Console.WriteLine($"Liczba pierwsza jest większa od drugiej o {number1 - number2}");
+                }
+                else if (number1 < number2)
+                {
+                    Console.WriteLine($"Liczba druga jest większa od pierwszej o {number2 - number1}");
+                }
+                else if (number1 == number2)
+                {
+                    Console.WriteLine("Obie liczby są równe");
+                }
+
+                Console.WriteLine("Enter to run again");
+
+                ConsoleKeyInfo keyInfo = Console.ReadKey(true); 
+                if (keyInfo.Key != ConsoleKey.Enter)
+                {
+                    runShow = false;
+                }
             }
-            else if (liczba1 < liczba2)
+        }
+
+        private static double GetNumber()
+        {
+            while (true)
             {
-                int roznica = liczba2 - liczba1;
-                Console.WriteLine("Liczba druga jest większa od pierwszej o " + roznica);
+                Console.WriteLine("Please input number: ");
+                var line = Console.ReadLine();
+                if (!string.IsNullOrEmpty(line) && double.TryParse(line, out var number))
+                {
+                    return number;
+                }
+                Console.WriteLine("Incorrect number");
+                Console.WriteLine(Environment.NewLine);
             }
-            else if (liczba1 == liczba2)
-            {
-                Console.WriteLine("Obie liczby są równe");
-            }
-            
         }
     }
 }
